@@ -120,6 +120,11 @@ main img {
 		display: none;
   	}
 
+  	.layout {
+  		width: 100%;
+  		height: auto;
+  	}
+
   	.layout:hover {
 		transform: none;
 		box-shadow: none;
