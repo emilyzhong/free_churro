@@ -129,5 +129,9 @@ main img {
 		transform: none;
 		box-shadow: none;
 	}
+
+	main {
+		width: 80vw;
+	}
 }
 
