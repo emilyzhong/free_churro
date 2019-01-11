@@ -11,6 +11,7 @@ a {
 body {
 	background: #fafafa;
 	line-height: 1.5em;
+	overflow-x: hidden;
 }
 
 nav {
@@ -110,13 +111,13 @@ main h1, main p {
 }
 
 @media only screen and (max-width: 900px) {
-  .hide-mobile {
-  	display: none;
-  }
+	.hide-mobile {
+		display: none;
+  	}
 
-  .layout:hover {
-	transform: scale(1);
-	box-shadow: none;
-}
+  	.layout:hover {
+		transform: none;
+		box-shadow: none;
+	}
 }
 
