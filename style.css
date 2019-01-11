@@ -25,11 +25,11 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	z-index: 98;
-	transition: 0.5s;
+	transition: 0.2s;
 }
 
 .scrollUp {
-    top: -120px;
+    top: -50px;
 }
 
 nav h1, nav p {
@@ -113,5 +113,10 @@ main h1, main p {
   .hide-mobile {
   	display: none;
   }
+
+  .layout:hover {
+	transform: scale(1);
+	box-shadow: none;
+}
 }
 
