@@ -1,6 +1,4 @@
 $(document).ready(function() {
-	$("#lightbox").hide();
-
 	$(".layout").click(function() {
 		$(".lightbox-featured").attr("src", $(this).attr("src"));
 		$("body").css("overflow-y", "hidden");
@@ -16,7 +14,7 @@ $(document).ready(function() {
 	$("#lightbox .lightbox-featured").click(function(e) {
 		e.stopPropagation();
 	})
-	
+
 	var c, currentScrollTop = 0,
        navbar = $('nav');
 
