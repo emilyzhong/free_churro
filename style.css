@@ -12,6 +12,8 @@ body {
 	background: #fafafa;
 	line-height: 1.5em;
 	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
 }
 
 nav {
@@ -37,9 +39,23 @@ nav h1, nav p {
 	display: inline-block;
 }
 
+nav #right {
+	text-align: right;
+}
+
+nav #right * {
+	margin: 0px 12px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 .layout-container {
 	margin: 120px auto;
 	text-align: center;
+}
+
+.reverse {
+	flex-direction: column-reverse;
 }
 
 .layout {

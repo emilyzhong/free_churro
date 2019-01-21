@@ -15,6 +15,15 @@ $(document).ready(function() {
 		e.stopPropagation();
 	})
 
+	$("#order-toggle").click(function() {
+		if ($("body").hasClass("reverse")) {
+			$("#order-toggle").text("View Oldest First");
+		} else {
+			$("#order-toggle").text("View Most Recent First");
+		}
+		$("body").toggleClass("reverse");
+	})
+
 	var c, currentScrollTop = 0,
        navbar = $('nav');
 
