@@ -17,9 +17,9 @@ $(document).ready(function() {
 
 	$("#order-toggle").click(function() {
 		if ($("body").hasClass("reverse")) {
-			$("#order-toggle").text("View Oldest First");
+			$("#order-toggle").text("View Most Recently Created First");
 		} else {
-			$("#order-toggle").text("View Most Recent First");
+			$("#order-toggle").text("View In Order of Creation");
 		}
 		$("body").toggleClass("reverse");
 	})
