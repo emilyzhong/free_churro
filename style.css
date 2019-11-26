@@ -59,7 +59,7 @@ nav #right * {
 }
 
 .layout {
-	height: calc(100% - 48px);
+	height: calc(100vh - 48px);
 	margin: 0 auto;
 	display: block;
 	cursor: pointer;
