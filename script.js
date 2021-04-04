@@ -17,9 +17,9 @@ $(document).ready(function() {
 
 	$("#order-toggle").click(function() {
 		if ($("body").hasClass("reverse")) {
-			$("#order-toggle").text("View Most Recently Created First");
+			$("#order-toggle").text("View most recently created first");
 		} else {
-			$("#order-toggle").text("View In Order of Creation");
+			$("#order-toggle").text("View in order of creation");
 		}
 		$("body").toggleClass("reverse");
 	})
@@ -30,9 +30,9 @@ $(document).ready(function() {
    $(window).scroll(function () {
       var a = $(window).scrollTop();
       var b = navbar.height();
-     
+
       currentScrollTop = a;
-     
+
       if (c < currentScrollTop && a > b + b) {
         navbar.addClass("scrollUp");
       } else if (c > currentScrollTop && !(a <= b)) {
